@@ -37,6 +37,7 @@ function countDown() {
             }
         }
 
+        var word_count = input_array.length - 1;
         var typing_speed = parseInt(correct_word_count) / initial_min;
         var accuracy = (correct_word_count / word_count) * 100;
         // window.open('result.html', '_self');
@@ -107,7 +108,7 @@ function mobile_keyboard_func() {
     }
 }
 
-setInterval(mobile_keyboard_func, 5000);
+setInterval(mobile_keyboard_func, 1000);
 
 
 // Responsive Icon Working
